@@ -1,0 +1,48 @@
+name: kidsbe_task
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^1.0.4
+  dio: ^4.0.6
+  webview_flutter: ^3.0.4
+  intl: ^0.17.0
+  sqflite: ^2.0.3
+  path: ^1.8.1
+  path_provider: ^2.0.11
+  shared_preferences: ^2.0.15
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  
+  fonts:
+    - family: Times New Roman
+      fonts:
+        - asset: assets/fonts/timesnewroman.ttf
+    - family: Merriweather
+      fonts:
+        - asset: assets/fonts/Merriweather-Regular.ttf
+        - asset: assets/fonts/Merriweather-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Merriweather-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Merriweather-BoldItalic.ttf
+          weight: 700
+          style: italic
