@@ -13,3 +13,6 @@ Shared Preferences is used to store cached sections data;
 Web pages diplay via webview_flutter package;
 RiverPod is used as state manager.
 
+## Demo
+You can watch video demonstration via link below
+https://drive.google.com/file/d/1cqZeBemWHZINxjt-U9QLA6WZs3CXBZEX/view?usp=sharing
